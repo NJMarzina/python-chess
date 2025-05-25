@@ -373,3 +373,10 @@ License
 
 python-chess is licensed under the GPL 3 (or any later version at your option).
 Check out ``LICENSE.txt`` for the full text.
+
+Venv
+----
+
+Run: *python -m venv chess_env*.
+
+Then: *chess_env\Scripts\activate*
