@@ -376,6 +376,7 @@ Check out ``LICENSE.txt`` for the full text.
 
 Directory
 ---------
+
 cd ~/python-chess
 
 
@@ -385,3 +386,8 @@ Venv
 Run: *python -m venv chess_env*.
 
 Then: *chess_env\Scripts\activate*
+
+Py
+--
+
+Run: *python marzymain.py*
