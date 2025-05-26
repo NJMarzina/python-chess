@@ -126,7 +126,7 @@ def main_menu():
         print("CHESS GAME SELECTOR")
         print("="*50)
         print("1. Play Standard Chess")
-        print("2. Play No-Pawns Variant")
+        print("2. Variant 1 - No-Pawns 4 Rooks")
         print("3. Quit")
         
         choice = input("\nSelect an option (1-3): ").strip()
@@ -134,7 +134,7 @@ def main_menu():
         if choice == '1':
             play_interactive_game(variant1.chess.Board, "Standard Chess")
         elif choice == '2':
-            play_interactive_game(variant1.MyChessVariant, "No-Pawns Chess Variant")
+            play_interactive_game(variant1.MyChessVariant1, "Variant 1 - No-Pawns 4 Rooks")
         elif choice == '3':
             print("Goodbye!")
             break
